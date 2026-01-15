@@ -1,4 +1,0 @@
-Titre : Introduction à l'Intelligence Artificielle
-Ce livre présente les bases de l’IA : algorithmes, machine learning et applications.
-Auteur : Dupont
-Catégorie : Informatique

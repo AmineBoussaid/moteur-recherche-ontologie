@@ -1,5 +1,0 @@
-Titre : Bases de Données Modernes
-Ce livre explique les SGBD, SQL et NoSQL.
-Auteur : Dupont
-Catégorie : Informatique
-

@@ -3,11 +3,12 @@ import webbrowser
 
 EX = Namespace("http://example.org/biblio#")
 
+# Charger l'ontologie
 g = Graph()
 g.parse("biblio.owl", format="xml")
 
 # =========================
-# MOTEUR DE RECHERCHE
+# FONCTIONS DE RECHERCHE
 # =========================
 
 def rechercher_par_categorie(categorie):
@@ -48,7 +49,6 @@ def rechercher_livres_empruntes(lecteur):
     for row in g.query(q):
         print("-", row.livre.split("#")[-1])
         print("  📄", row.doc)
-
 
 # =========================
 # INTERFACE UTILISATEUR
